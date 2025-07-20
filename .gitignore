@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Node modules (if you ever add npm packages)
+node_modules/
+
+# Build output (if you ever add a build step)
+dist/
+build/
+
+# OS/Editor files
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Zipped extension packages
+*.zip
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode settings (optional)
+.vscode/ 
