@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>n8n Auto-Save Options</title>
+  <style>
+    body { font-family: sans-serif; margin: 1em; min-width: 220px; }
+    label, input { font-size: 1em; }
+    .feedback { color: #b00; margin-top: 0.5em; }
+    .current { color: #333; margin-bottom: 1em; }
+    button { margin-top: 0.5em; }
+  </style>
+</head>
+<body>
+  <h3 style="margin-top:0">Auto-Save Interval</h3>
+  <div class="current" id="currentValue"></div>
+  <form id="intervalForm">
+    <label for="interval">Interval (min): </label>
+    <input type="number" id="interval" name="interval" min="1" max="180" required style="width:60px;">
+    <button type="submit">Save</button>
+    <div class="feedback" id="feedback"></div>
+  </form>
+  <script src="options.js"></script>
+</body>
+</html> 
